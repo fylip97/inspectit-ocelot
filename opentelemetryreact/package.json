@@ -1,0 +1,24 @@
+{
+  "name": "opentelemetryreact",
+  "version": "1.0.0",
+  "description": "react and express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Philip Dengler",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/core": "^0.2.0",
+    "@opentelemetry/exporter-jaeger": "^0.2.0",
+    "@opentelemetry/node": "^0.2.0",
+    "@opentelemetry/tracing": "^0.2.0",
+    "concurrently": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
